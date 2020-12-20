@@ -1,18 +1,17 @@
 # Project Overview
 ## Project Schedule
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+I will be working on this project over the course of 10 weekdays, at a rate of 4 incredibly focused hours a day. 
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Incomplete
 |Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 4| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 6| MVP & Bug Fixes | Incomplete
+|Day 8| Final Touches | Incomplete
+|Day 10| Present | Incomplete
 
 ## Project Description
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My project portfolio will mirror the style of a minimalist, Scandinavian interior design that mainly prioritizes function and utility over flare and extravagance. Each section will have a clear emphasis on what truly defines the makeup of that particular section, without adding irrelevant material or intrusive deadweight. The point of my portfolio will be to inform and enlighten, not overwhelm and distract.
 
 ## Google Sheet
 Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
@@ -45,9 +44,9 @@ Once complete tally up the time and determine how long the project will take to 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP (examples)
-- Pull data using google json api
+- Pull data using Google JSON API 
 - Render data on page 
-- Allow user to choose favorites 
+- 
 - Save their choices in firebase
 
 #### PostMVP 
