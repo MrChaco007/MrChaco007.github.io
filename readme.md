@@ -74,7 +74,7 @@ Once complete tally up the time and determine how long the project will take to 
 | --- | :---: |  :---: | :---: | 
 | Competencies Popover | M | 8hr | hr |
 | Contact form responsive swap | L | 4hr | hr |
-| Total | H | 12hrs| hrs |
+| Total | M | 12hrs| hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
