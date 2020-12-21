@@ -27,12 +27,12 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-- [Mobile/Tablet](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608512304/PROJECT_1_Mobile_Tablet_Mockup_dnttwv.png)
+- [Mobile/Tablet](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608583433/PROJECT_1_Mobile_Tablet_Mockup_mr3aol.png)
 - [Desktop](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608513483/PROJECT_1_Desktop_Mockup_okimjb.png)
 
 
 ## Time/Priority Matrix 
-[Project Matrix](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608568249/Priority_Matrix_bhd15l.jpg)
+[Project Matrix](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608582874/Priority_Matrix_hfzcii.jpg)
 
  
 
@@ -47,7 +47,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - Color scheme & fonts
 
 #### PostMVP 
-- When competencies icons are clicked on, the frameworks/libraries I know show up in a popover
+- When competencies icons are clicked on in a Desktop, the frameworks/libraries I know show up in a popover
+- Smooth-scrolling for navigation clicks
 
 ## Functional Components
 
@@ -69,7 +70,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Competencies Popover | M | 8hr | hr |
+| Competencies Popover | M | 6hr | hr |
+| Smooth-scrolling for navigation clicks | M | 2hr | hr |
 | Contact form responsive swap | L | 4hr | hr |
 | Total | M | 12hrs| hrs |
 
