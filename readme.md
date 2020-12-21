@@ -66,14 +66,14 @@ Once complete tally up the time and determine how long the project will take to 
 | Responsive | H | 4hr | hr |
 | CSS Grid | H | 2.5hr | hr | 
 | About me & social media icons | H | 1hr |  hr |
-| Carousel web component | H | 5hr |  hr |
+| Carousel web component | M | 5hr |  hr |
 | Total | H | 28hrs | hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Competencies Popover | H | 8hr | hr |
-| Contact form responsive swap | H | 4hr | hr |
+| Competencies Popover | M | 8hr | hr |
+| Contact form responsive swap | L | 4hr | hr |
 | Total | H | 12hrs| hrs |
 
 ## Additional Libraries
