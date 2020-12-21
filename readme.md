@@ -67,7 +67,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 6hr |  hr | 
 | Responsive | H | 4hr | hr |
 | CSS Grid | H | 2.5hr | hr | 
-| Social Media Icons | H | 1hr |  hr |
+| About me & social media icons | H | 1hr |  hr |
 | Carousel web component | H | 5hr |  hr |
 | Total | H | 28hrs | hrs |
 
