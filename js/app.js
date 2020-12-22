@@ -21,12 +21,25 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1Lu0DWKUoCxALeIMeHASpKfSRJYIP
             live: project.gsx$live.$t,
             github: project.gsx$github.$t
         }
+
     })
     console.log(projects)
     
     //////////////
 ////USE JQUERY TO RENDER PROJECTS TO PAGE
 
+for (i=0;i < projects.length; i++) {
+    const $div=$(`<div class="card" style="width: 18rem;">
+    <img src=${projects[i].img} class="card-img-top" alt="project">
+    <div class="card-body">
+      <h5 class="card-title">${projects[i].name}</h5>
+      <p class="card-text">${projects[i].description}</p>
+      <a href=${projects[i].live} class="btn btn-primary">Check it out</a>
+    </div>
+    </div>`)
+$("#projects").append($div)
+
+}
 
 //////////////////////////
 

@@ -35,6 +35,27 @@ body {
   font-family: var(--text);
 }
 
+
+
+.navbar {
+  background-color: #750FF7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar-nav {
+color: white;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+}
+
+.card-image {
+  display: block;
+  margin: 20px; 
+}
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
