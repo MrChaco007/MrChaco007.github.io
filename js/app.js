@@ -29,14 +29,16 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1Lu0DWKUoCxALeIMeHASpKfSRJYIP
 ////USE JQUERY TO RENDER PROJECTS TO PAGE
 
 for (i=0;i < projects.length; i++) {
-    const $div=$(`<div class="card" style="width: 18rem;">
-    <img src=${projects[i].img} class="card-img-top" alt="project">
-    <div class="card-body">
-      <h5 class="card-title">${projects[i].name}</h5>
-      <p class="card-text">${projects[i].description}</p>
-      <a href=${projects[i].live} class="btn">Check it out</a>
-    </div>
-    </div>`)
+    const $div = $(
+        `<div class="card" style="width: 18rem;">
+        <img src=${projects[i].img} class="card-img-top" alt="project">
+        <div class="card-body">
+        <h5 class="card-title">${projects[i].name}</h5>
+        <p class="card-text">${projects[i].description}</p>
+        <a href=${projects[i].live} class="btn">Check it out</a>
+        </div>
+        </div>`
+    )
 $("#projects").append($div)
 
 }
