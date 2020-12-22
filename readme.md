@@ -27,8 +27,8 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-- [Mobile/Tablet](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608583433/PROJECT_1_Mobile_Tablet_Mockup_mr3aol.png)
-- [Desktop](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608513483/PROJECT_1_Desktop_Mockup_okimjb.png)
+- [Mobile](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608583433/PROJECT_1_Mobile_Tablet_Mockup_mr3aol.png)
+- [Tablet/Desktop](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608513483/PROJECT_1_Desktop_Mockup_okimjb.png)
 
 
 ## Time/Priority Matrix 
