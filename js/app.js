@@ -34,7 +34,7 @@ for (i=0;i < projects.length; i++) {
     <div class="card-body">
       <h5 class="card-title">${projects[i].name}</h5>
       <p class="card-text">${projects[i].description}</p>
-      <a href=${projects[i].live} class="btn btn-primary">Check it out</a>
+      <a href=${projects[i].live} class="btn">Check it out</a>
     </div>
     </div>`)
 $("#projects").append($div)

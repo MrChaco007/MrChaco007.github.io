@@ -35,7 +35,19 @@ body {
   font-family: var(--text);
 }
 
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block; 
+  padding: 30px;
+}
 
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .navbar {
   background-color: #750FF7;
@@ -49,12 +61,22 @@ color: white;
 
 .header {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 30px;
+  margin: 40px;
 }
 
-.card-image {
-  display: block;
-  margin: 20px; 
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.btn {
+  background-color: #750FF7;
+  color: white;
 }
 /* *******************************************
 ****** PROJECT STYLES
