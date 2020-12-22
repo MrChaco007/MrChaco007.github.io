@@ -72,7 +72,9 @@ color: white;
   flex-wrap: wrap;
 }
 
-
+.card {
+  margin: 20px;
+}
 
 .btn {
   background-color: #750FF7;
