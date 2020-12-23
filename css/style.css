@@ -92,13 +92,14 @@ color: white;
 .header {
   font-family: Arial, sans-serif;
   padding-top: 15px; 
-  padding-bottom: 15px;;
+  padding-bottom: 15px;
 }
 
 /* TARGETING THE PROJECT CARDS */
 #projects {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
