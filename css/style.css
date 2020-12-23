@@ -39,40 +39,66 @@ body {
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
-h4 {
-  font-family: Arial, Helvetica, sans-serif;
-  display: block; 
-  margin: 30px;
-  font-style: bold;
-}
 
+/* SECTION HEADERS */
+h4 {
+  font-family: Arial, sans-serif;
+  font-weight: bold; 
+  display: block; 
+  padding: 15px;
+  width: auto;
+  font-style: bold;
+  font-size: 1rem;
+  background-color: #F8F9FA;
+}
+/* CARD HEADERS */
 h5 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+/* NAVBAR  */
+.container-fluid{
+  padding:0px;
 }
 
 .navbar {
   background-color: #750FF7;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding:15px;
 }
 
+.navbar-brand {
+  font-size: 1.2rem;
+}
 
 .navbar-nav {
 color: white;
 }
 
-.header {
-  font-family: Arial, Helvetica, sans-serif;
+.nav-item {
+  padding: 10px; 
 }
 
+/* TARGETING EACH SECTION  */
+.header {
+  font-family: Arial, sans-serif;
+  padding-top: 15px; 
+  padding-bottom: 15px;;
+}
 
+/* TARGETING THE PROJECT CARDS */
 #projects {
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -83,25 +109,35 @@ color: white;
 .btn {
   background-color: #750FF7;
   color: white;
+  font-size: 0.9rem; 
 }
 
-#avatar{
+/* TARGETING THE ABOUT ME SECTION */
+#avatar-and-icons{
   width: 35%;
+  max-width: 150px;
   align:left; 
+  margin-left: 30px; 
 }
 
+/* IMAGE */
 .img-thumbnail {
-
-  width:250px; 
+  width:100%; 
+  position: relative;
+  align: center;
 }
 
+/* SOCIAL MEDIA ICON UL */
 #socials {
   color: #750FF7;
   display: flex; 
-  justify-content: space-between;
-  width: 50%;
+  justify-content: space-around;
+  padding: 0px; 
+  margin-top: 10px;
+  width: 100%;
 }
 
+/*LINK COLOR RESET*/
 a {
   color: inherit;
 }
