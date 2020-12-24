@@ -53,19 +53,7 @@ h4 {
   width: auto;
   font-style: bold;
   font-size: 1rem;
-  background-color: #F8F9FA;
-}
-/* CARD HEADERS */
-h5 {
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  font-size: 0.9rem;
-}
-
-.card p {
-  font-family: Arial, sans-serif;
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
+  background-color: #decff177;
 }
 
 /* NAVBAR  */
@@ -108,8 +96,22 @@ section {
   flex-wrap: wrap;
 }
 
+/* CARD HEADERS */
+h5 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+/* CARD BODY */
+.card p {
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
 .card {
   margin: 20px;
+  text-align: center;
 }
 
 .btn {
@@ -120,7 +122,7 @@ section {
 
 /* TARGETING THE ABOUT ME SECTION */
 #about{
-  text-align:center;
+  text-align: center;
 }
 
 /* TARGETING AVATAR AND ICONS DIV */
@@ -134,8 +136,6 @@ section {
 /* IMAGE */
 .img-thumbnail {
   width:100%; 
-  position: relative;
-  align: center;
 }
 
 /* SOCIAL MEDIA ICON UL */
@@ -171,11 +171,13 @@ a {
   padding: 0px 30px 0px 30px;
   margin-bottom: 0px; 
   justify-items: center;
-}
+  }
 
-/* #competencies .btn{
+  #competencies-icons img {
+    border: 1px solid #decff177;
+    padding: 5px;
+  }
 
-} */
 
 
 #html{
@@ -201,12 +203,18 @@ a {
 #jquery {
   grid-row: 2/3;
   grid-column: 2/3;
-  width: 47px; 
+  width: 58px; 
 }
 
 #ajax {
   grid-row: 2/3;
   grid-column: 3/4; 
-  width: 46px; 
+  width: 58px; 
 }
 
+
+/* TARGETING CONTACT FORM */
+
+#first {
+
+}
