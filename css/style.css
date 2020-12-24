@@ -53,7 +53,7 @@ h4 {
   width: auto;
   font-style: bold;
   font-size: 1rem;
-  background-color: #decff177;
+  background-color: #F8F9FA;
 }
 
 /* NAVBAR  */
@@ -174,7 +174,8 @@ a {
   }
 
   #competencies-icons img {
-    border: 1px solid #decff177;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
     padding: 5px;
   }
 
@@ -213,8 +214,3 @@ a {
 }
 
 
-/* TARGETING CONTACT FORM */
-
-#first {
-
-}

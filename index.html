@@ -102,28 +102,26 @@
       </ul>
 
     </section>
-  <!-- CONTACT ME SECTION   -->
-    <h4>Contact Me</h4>
-    <section id="contact">
-      <form action="https://formspree.io/f/xeqppknv" method="POST">
-        <label id="first"> First name:
-          <input type="text" name="First name">
-        </label>
-        <label>Last Name:
-          <input id="last" type="text" name="last name">
-        </label>
-        <label>Email:
-        <input id="email" type="email" name="_replyto">
-        </label>
-        <label>Message
-          <input id="message" type="email" name="message" placeholder="What do you want to talk about?">
-          </label>
-        <input id="submit" type="submit" value="Send">
-      </form>
-    </section>
-    
-   
-  </body>
 
-<!-- BODY -->
+  <!-- POPUP CONTACT FORM  -->
+  <script id="popup" src="https://formspree.io/js/formbutton-v1.0.4.min.js" defer></script>
+  <script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {
+      action: "https://formspree.io/f/xzbkkgqk", 
+      styles: {
+      fontFamily:'"arial", sans-serif',
+      button: {
+        background: "#750FF7"
+      },
+      title: {
+        background: "#750FF7",
+        letterSpacing: "0.05em",
+      }
+    },
+    title: "Let's Connect!", 
+  });
+  </script>
+
+<!-- BODY END -->
 </html>
