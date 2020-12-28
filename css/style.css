@@ -65,16 +65,26 @@ h4 {
   padding:0px;
 }
 
+
+
 .navbar {
   background-color: #750FF7;
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
-  padding:15px;
+  padding:10px;
 }
 
 .navbar-brand {
   font-size: 1.2rem;
+  padding: 0px; 
+  margin: 0px; 
+}
+
+#logo {
+  width: 80px; 
+  margin-left:10px; 
+  margin-right: 10px; 
 }
 
 .navbar-nav {
@@ -156,11 +166,13 @@ h5 {
   width: 35%;
   max-width: 150px;
   margin: 0 auto; 
+  justify-self: center; ;
 }
 
 /* IMAGE */
 .img-thumbnail {
   width:100%; 
+  margin-bottom: 10px; 
 }
 
 /* SOCIAL MEDIA ICON UL */
@@ -273,6 +285,21 @@ a {
 #competencies-icons{
   display: flex;
   justify-content: space-evenly;
+}
+
+#carouselExampleControls{
+  margin: 30px; 
+}
+
+.d-block{
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+
+
+#socials{
+  margin-bottom: 0px;
 }
 
 }
