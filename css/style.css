@@ -217,3 +217,16 @@ a {
 }
 
 
+/* MEDIA QUERIES  */
+
+@media screen and (max-width:768px){
+  #myCarousel{
+    display:none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display:none; 
+  }
+}
