@@ -92,7 +92,7 @@ section {
   padding-bottom: 20px;
 }
 
-/* TARGETING THE PROJECT CARDS */
+/* TARGETING THE PROJECT CARDS IN MOBILE*/
 #projects {
   display: flex;
   flex-direction: row;
@@ -124,6 +124,28 @@ h5 {
   font-size: 0.9rem; 
 }
 
+/* TARGETING CAROUSEL IN TABLET/DESKTOP */
+.carousel-caption {
+  background-color: rgba(0,0,0,0.6);
+  color: white !important; 
+  padding: 15px; 
+}
+
+.carousel-caption h5 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.carousel-caption p {
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  margin-top:5px; 
+}
+
+
+
+
 /* TARGETING THE ABOUT ME SECTION */
 #about{
   text-align: center;
@@ -133,7 +155,6 @@ h5 {
 #avatar-and-icons{
   width: 35%;
   max-width: 150px;
-  text-align: center;
   margin: 0 auto; 
 }
 
@@ -219,8 +240,8 @@ a {
 
 /* MEDIA QUERIES  */
 
-@media screen and (max-width:768px){
-  #myCarousel{
+@media screen and (max-width:767px){
+  .carousel{
     display:none;
   }
 }
@@ -229,4 +250,29 @@ a {
   .card {
     display:none; 
   }
+  /* TARGETING THE ABOUT ME SECTION */
+#about{
+  display:flex; 
+  text-align: center;
+}
+
+#biography-text{
+  align-self: center; 
+}
+
+#biography-text p{
+  margin: 30px;
+  padding: 15px; 
+}
+#avatar-and-icons{
+  width: 50%;
+  max-width: 150px;
+  margin: 30px; 
+}
+
+#competencies-icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 }

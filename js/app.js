@@ -31,27 +31,26 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1Lu0DWKUoCxALeIMeHASpKfSRJYIP
 for (i=0;i < projects.length; i++) {
     const $div = $(
         `<div class="card" style="width: 18rem;">
-        <img src="${projects[i].img}" class="card-img-top" alt="project">
+        <img src=${projects[i].img} class="card-img-top" alt="project">
         <div class="card-body">
         <h5 class="card-title">${projects[i].name}</h5>
         <p class="card-text">${projects[i].description}</p>
-        <a href="${projects[i].live}" class="btn">Check it out</a>
+        <a href=${projects[i].live} class="btn">Check it out</a>
         </div>
         </div>`)
 
     $("#projects").append($div)
 }
 
-carous(projects)
+
 
 //////////////////////////
 
-})
-function carous(projects) {
+
     //create first slide from projects[0]
     const $div1 = $(`
     <div class="carousel-item active">
-        <img src="${projects[0].img}" class="d-block w-100" alt="Project">
+        <a href=${projects[0].live}><img src="${projects[0].img}" class="d-block w-100" alt="Project"></a>
         <div class="carousel-caption d-none d-md-block">
             <h5>${projects[0].name}</h5>
             <p>${projects[0].description}</p>
@@ -65,7 +64,7 @@ function carous(projects) {
 
         const $div2 = $(`
     <div class="carousel-item">
-        <img src="${projects[i].img}" class="d-block w-100" alt="Project">
+    <a href=${projects[i].live}><img src="${projects[i].img}" class="d-block w-100" alt="Project"></a>
         <div class="carousel-caption d-none d-md-block">
             <h5>${projects[i].name}</h5>
             <p>${projects[i].description}</p>
@@ -75,8 +74,8 @@ function carous(projects) {
       $(".carousel-inner").prepend($div2)
         
     }
-}
 
+})
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
