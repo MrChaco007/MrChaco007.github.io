@@ -114,4 +114,4 @@ With the help of Kenny, figured out how to fetch API data via AJAX and render th
  Always make sure to check if your stylesheets and script tags are accurate and up-to-date. For some reason, the project boilerplate had the incorrect Bootstrap stylesheets and script tags, which I didn't realize after 2+ hours of troubleshooting my navbar's functionality. 
 
  I had trouble remembering all the flexbox and grid stylings. When using flexbox or grid in CSS, be sure to reference
- [css-tricks.com] (css-tricks.com). It's super helpful when you need a refresher on what exactly each of the two CSS properties are capable of. 
+ [css-tricks.com](css-tricks.com). It's super helpful when you need a refresher on what exactly each of the two CSS properties are capable of. 
