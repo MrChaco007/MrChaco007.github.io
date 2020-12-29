@@ -4,14 +4,14 @@ I will be working on this project over the course of 10 weekdays, at a rate of 4
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 1| Wireframes / Priority Matrix / Timeline | In progress
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 6| MVP & Bug Fixes | Incomplete
-|Day 8| Final Touches | Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 6| MVP & Bug Fixes | Complete
+|Day 8| Final Touches | Complete
 |Day 10| Record walk-through of website | Incomplete
 
 ## Project Description
-My project portfolio will mirror the style of a minimalist, Scandinavian interior design that mainly prioritizes function and utility over flare and extravagance. Each section will have a clear emphasis on what truly defines the makeup of that particular section, without adding irrelevant material or intrusive deadweight. The point of my portfolio will be to inform and enlighten, not overwhelm or distract.
+My project portfolio will mirror the style of a minimalist, Scandinavian interior design that mainly prioritizes function,utility, and key stylings over flare and extravagance. Each section will have a clear emphasis on what truly defines the makeup of that particular section, without adding irrelevant material or intrusive deadweight. The point of my portfolio will be to inform and enlighten, not overwhelm or distract.
 
 ## Google Sheet
 https://docs.google.com/spreadsheets/d/1Lu0DWKUoCxALeIMeHASpKfSRJYIPl6xiKq2DjDMRERU/edit?usp=sharing
@@ -26,7 +26,7 @@ Link To Site  | One Thing I'd Like To Incorporate |
 ---
 
 ## Wireframes
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+ 
 - [Mobile](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608583433/PROJECT_1_Mobile_Tablet_Mockup_mr3aol.png)
 - [Tablet/Desktop](https://res.cloudinary.com/dvnl2s9um/image/upload/v1608513483/PROJECT_1_Desktop_Mockup_okimjb.png)
 

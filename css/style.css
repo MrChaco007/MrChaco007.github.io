@@ -129,10 +129,19 @@ h5 {
 }
 
 .btn {
-  background-color: #750FF7;
-  color: white;
+  background-color: transparent;
+  color: #750FF7;
+  border: 1px solid #750FF7;
   font-size: 0.9rem; 
-}
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .btn:hover {
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 0 40px 40px #750FF7 inset;
+  }
+
 
 /* TARGETING CAROUSEL IN TABLET/DESKTOP */
 .carousel-caption {
