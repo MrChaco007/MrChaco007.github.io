@@ -184,6 +184,10 @@ h5 {
   width: 100%;
 }
 
+.fab:hover{
+  filter:grayscale();
+}
+
 /*LINK COLOR RESET*/
 a {
   color: inherit;
