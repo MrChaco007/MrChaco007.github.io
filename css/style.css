@@ -295,13 +295,11 @@ a {
 
 /* TARGETING CAROUSEL */
 
-.d-block{
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: 0.25rem;
-}
 #carouselExampleControls{
   margin: 0px 100px; 
   padding:0px;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
 }
 
 .carousel {
