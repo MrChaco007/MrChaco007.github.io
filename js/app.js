@@ -35,7 +35,7 @@ for (i=0;i < projects.length; i++) {
         <div class="card-body">
         <h5 class="card-title">${projects[i].name}</h5>
         <p class="card-text">${projects[i].description}</p>
-        <a href=${projects[i].live} class="btn">Check it out</a>
+        <a href=${projects[i].live} target="_blank" class="btn">Check it out</a>
         </div>
         </div>`)
 
@@ -50,7 +50,7 @@ for (i=0;i < projects.length; i++) {
     //create first slide from projects[0]
     const $div1 = $(`
     <div class="carousel-item active">
-        <a href=${projects[0].live}><img src="${projects[0].img}" class="d-block w-100" alt="Project"></a>
+        <a href=${projects[0].live} target="_blank"><img src="${projects[0].img}" class="d-block w-100" alt="Project"></a>
         <div class="carousel-caption d-none d-md-block">
             <h5>${projects[0].name}</h5>
             <p>${projects[0].description}</p>
@@ -64,7 +64,7 @@ for (i=0;i < projects.length; i++) {
 
         const $div2 = $(`
     <div class="carousel-item">
-    <a href=${projects[i].live}><img src="${projects[i].img}" class="d-block w-100" alt="Project"></a>
+    <a href=${projects[i].live} target="_blank"><img src="${projects[i].img}" class="d-block w-100" alt="Project"></a>
         <div class="carousel-caption d-none d-md-block">
             <h5>${projects[i].name}</h5>
             <p>${projects[i].description}</p>
