@@ -166,7 +166,6 @@ h5 {
   width: 35%;
   max-width: 150px;
   margin: 0 auto; 
-  justify-self: center; ;
 }
 
 /* IMAGE */
@@ -213,7 +212,7 @@ a {
   #competencies-icons img {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
-    padding: 5px;
+    padding: 5px; 
   }
 
 
@@ -266,40 +265,53 @@ a {
 #about{
   display:flex; 
   text-align: center;
+  align-items: center;
 }
 
 #biography-text{
-  align-self: center; 
+  margin-right: 100px;
+  margin-left:100px;
 }
 
 #biography-text p{
-  margin: 30px;
   padding: 15px; 
+  margin:0px; 
 }
 #avatar-and-icons{
-  width: 50%;
+  width: 80%;
   max-width: 150px;
-  margin: 30px; 
+  margin-left:100px; 
 }
 
 #competencies-icons{
   display: flex;
   justify-content: space-evenly;
+
 }
 
-#carouselExampleControls{
-  margin: 30px; 
+#socials{
+  margin-bottom: 0px;
 }
+
+/* TARGETING CAROUSEL */
 
 .d-block{
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
 }
-
-
-
-#socials{
-  margin-bottom: 0px;
+#carouselExampleControls{
+  margin: 0px 100px; 
+  padding:0px;
 }
+
+.carousel {
+  width: 900px;
+}
+
+/* TARGETING ALL SECTIONS */
+section{
+  padding: 50px 0px;
+}
+
 
 }
