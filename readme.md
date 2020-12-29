@@ -8,7 +8,7 @@ I will be working on this project over the course of 10 weekdays, at a rate of 4
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 6| MVP & Bug Fixes | Complete
 |Day 8| Final Touches | Complete
-|Day 10| Record walk-through of website | Incomplete
+|Day 10| Record walk-through of website | Complete
 
 ## Project Description
 My project portfolio will mirror the style of a minimalist, Scandinavian interior design that mainly prioritizes function,utility, and key stylings over flare and extravagance. Each section will have a clear emphasis on what truly defines the makeup of that particular section, without adding irrelevant material or intrusive deadweight. The point of my portfolio will be to inform and enlighten, not overwhelm or distract.
@@ -17,11 +17,10 @@ My project portfolio will mirror the style of a minimalist, Scandinavian interio
 https://docs.google.com/spreadsheets/d/1Lu0DWKUoCxALeIMeHASpKfSRJYIPl6xiKq2DjDMRERU/edit?usp=sharing
 
 ## Portfolio I want to Emulate
-Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [https://samcasey.info/](https://samcasey.info/) | social media icons, color scheme/theme, competencies list
-|[http://robertdiscipio.surge.sh/](http://robertdiscipio.surge.sh/) | competencies icons, flex display |
+| [samcasey.info](https://samcasey.info/) | social media icons, color scheme/theme, competencies list
+| [eloise-ress-barrow.surge.sh](eloise-ress-barrow.surge.sh/) | simplicity, sticky navbar |
 | [mattfarley.ca](http://mattfarley.ca/) |  simplicity, icons, color scheme
 ---
 
@@ -55,35 +54,63 @@ Link To Site  | One Thing I'd Like To Incorporate |
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding contact form | H | 1.5hr|  hr | 
-| Other sections and flex| H | 3hr | hr|
-| Working with API | H | 6hr |  hr | 
-| Responsive | H | 4hr | hr |
-| CSS Grid | H | 2.5hr | hr | 
-| About me & social media icons | H | 1hr |  hr |
-| Carousel web component | M | 5hr |  hr |
-| Total | H | 28hrs | hrs |
+| Hamburger | H | 1hr | 1hr |
+| Project Previews | H | 3hr | 1hr |
+| Regular Nav | H | 1hr | 3hr |  
+| Adding contact form | H | 1.5hr|  2hr | 
+| Other sections and flex| H | 3hr | 3hr|
+| Working with API | H | 6hr |  3hr | 
+| Responsive | H | 4hr | 5hr |
+| CSS Grid | H | 2.5hr | 2hr | 
+| About me & social media icons | H | 1hr |  2hr |
+| Carousel web component | M | 5hr |  4hr |
+| Total | H | 28hrs | 26hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Competencies Popover | M | 6hr | hr |
-| Smooth-scrolling for navigation clicks | M | 2hr | hr |
-| Contact form responsive swap | L | 4hr | hr |
-| Total | M | 12hrs| hrs |
+| Competencies Popover | M | 6hr | 2hr |
+| Smooth-scrolling for navigation clicks | M | 2hr | 0.5hr |
+| Contact form responsive swap | L | 4hr | 1hr |
+| Total | M | 12hrs| 3.5hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ jQuery - mainly used this when rendering API data to my Bootstrap project cards and carousel. 
+
+ Bootstrap framework - used this for my navbar, project cards, carousel, and image thumbnail.
  
 ## Code Snippet
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+With the help of Kenny, figured out how to fetch API data via AJAX and render the data to display in a Bootstrap carousel. Since Bootstrap carousels require only the first carousel item to have an active class, I had to assign it its own div containing the first value of the project data array and then use a for loop for the remaining carousel items in an additional div. 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+ //create first slide from projects[0]
+    const $div1 = $(`
+    <div class="carousel-item active">
+        <a href=${projects[0].live}><img src="${projects[0].img}" class="d-block w-100" alt="Project"></a>
+        <div class="carousel-caption d-none d-md-block">
+            <h5>${projects[0].name}</h5>
+            <p>${projects[0].description}</p>
+        </div>
+    </div>`)
+    //prepend the first slide
+    $(".carousel-inner").prepend($div1)
+    //then run loop from projects [1] until end of array
+   
+    for (i=1;i <projects.length; i++) {
+
+        const $div2 = $(`
+    <div class="carousel-item">
+    <a href=${projects[i].live}><img src="${projects[i].img}" class="d-block w-100" alt="Project"></a>
+        <div class="carousel-caption d-none d-md-block">
+            <h5>${projects[i].name}</h5>
+            <p>${projects[i].description}</p>
+         </div>
+    </div>`)
+     //prepend each additional slide 
+      $(".carousel-inner").prepend($div2)
+        
+    }
 ```
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+ Always make sure to check if your stylesheets and script tags are accurate and up-to-date. For some reason, the project boilerplate had the incorrect Bootstrap stylesheets and script tags, which I didn't realize after 2+ hours of troubleshooting my navbar's functionality. 
+
+ I had trouble remembering all the flexbox and grid stylings. When using flexbox or grid in CSS, be sure to reference css-tricks.com. It's super helpful when you need a refresher on what exactly each of the two CSS properties are capable of. 
