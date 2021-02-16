@@ -205,18 +205,19 @@ a {
 /* TARGETING COMPETENCIES SECTION */
 #competencies-icons{
   display: grid; 
-  grid-template-rows: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr, 1fr;
   grid-template-columns: 1fr, 1fr, 1fr;
-  grid-gap: 25px; 
-  padding: 0px 30px 0px 30px;
+  grid-gap: 10px; 
   margin-bottom: 0px; 
   justify-items: center;
+  padding-left: 0px; 
   }
 
   #competencies-icons img {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
     padding: 5px; 
+    margin: 0px;
   }
 
 
@@ -252,7 +253,41 @@ a {
   width: 58px; 
 }
 
+#react {
+  grid-row: 3/4; 
+  grid-column: 1/2; 
+  min-width: 58px; 
+}
 
+#expressNode {
+  grid-row: 3/4;
+  grid-column: 2/3; 
+  min-width: 58px; 
+}
+
+#mongoDB {
+  grid-row: 3/4; 
+  grid-column: 3/4;
+  min-width: 58px; 
+}
+
+#Ruby {
+grid-row: 4/5;
+grid-column: 1/2; 
+width: 58px; 
+}
+
+#rubyRails {
+  grid-row: 4/5; 
+  grid-column: 2/3; 
+  width: 58px; 
+}
+
+#PostgreSQL{
+  grid-row: 4/5;
+  grid-column: 3/4;
+  width: 58px; 
+}
 /* MEDIA QUERIES  */
 
 @media screen and (max-width:767px){
@@ -290,7 +325,13 @@ a {
 #competencies-icons{
   display: flex;
   justify-content: space-evenly;
+flex-wrap: wrap;
+margin: 0 auto; 
+max-width: 900px; 
+}
 
+#competencies-icons img {
+  margin: 10px 75px; 
 }
 
 #socials{
