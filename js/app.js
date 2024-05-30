@@ -2,7 +2,7 @@
 /// PULL AND RENDER DATA FROM GOOGLE SHEET
 ////////
 
-$.ajax("https://spreadsheets.google.com/feeds/list/1Lu0DWKUoCxALeIMeHASpKfSRJYIPl6xiKq2DjDMRERU/1/public/full?alt=json")
+$.ajax("https://docs.google.com/spreadsheets/d/1Lu0DWKUoCxALeIMeHASpKfSRJYIPl6xiKq2DjDMRERU/gviz/tq?tqx=out:json&tq&gid=%27+gid")
 .then((data) => {
     //Checking my data
     console.log(data)
